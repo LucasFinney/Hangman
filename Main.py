@@ -18,7 +18,7 @@ with open(path,'r') as dictionary:
 word = random.choice(words)
 
 # TESTING LINE: Print out the word
-print(word)
+#print(word)
 
 #Find the length of the word
 word_length = len(word)
@@ -95,10 +95,13 @@ while True:
     # Check if all values are True after each guess
     if all(guess_tracker.values()):
         print("Congratulations! You've guessed all the letters.")
+        input("Press enter to continue...")
         break  # This exits the loop
     
     if player.tries <= 0:
         print("You lose!")
+        print(f"The word was {word}")
+        input("Press enter to continue...")
         break
         
     input("Press enter to continue...")
