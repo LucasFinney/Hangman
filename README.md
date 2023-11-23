@@ -11,7 +11,9 @@ Current Features:
 - Display of blank spaces and correct guesses
 - Win and lose states
 - Limited number of incorrect guesses until loss
+
 To-Do:
+- Clean up the code. Put things into seperate methods to reduce the amount of logic in the main loop
 - Scoring system? More unique letters -> Higher difficulty
 - Score counts down. A perfect play would mean that there were no incorrect guesses.
 - Leaderboard?
